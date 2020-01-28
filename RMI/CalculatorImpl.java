@@ -3,10 +3,6 @@ public class CalculatorImpl
       java.rmi.server.UnicastRemoteObject 
     implements Calculator { 
  
-    // Implementations must have an 
-    //explicit constructor 
-    // in order to declare the 
-    //RemoteException exception 
     public CalculatorImpl() 
         throws java.rmi.RemoteException { 
         super(); 
