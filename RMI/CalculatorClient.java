@@ -18,10 +18,10 @@ public class CalculatorClient {
 	    a = sc.nextInt();
 	    System.out.print("B = ");
 	    b = sc.nextInt();
-	    System.out.println( c.add(a,b) );
-            System.out.println( c.sub(a,b) );
-            System.out.println( c.mul(a,b) );
-            System.out.println( c.div(a,b) );
+	    System.out.println("Addition: " + c.add(a,b) );
+            System.out.println("Subtraction: " + c.sub(a,b) );
+            System.out.println("Multiplication: " + c.mul(a,b) );
+            System.out.println("Division: " + c.div(a,b) );
         } 
         catch (MalformedURLException murle) { 
             System.out.println(); 
